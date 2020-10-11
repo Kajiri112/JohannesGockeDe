@@ -1,0 +1,28 @@
+.navBar {
+    position: fixed;
+    height: 50px;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #343a40;
+    display: flex;
+    align-items: center;
+}
+
+.dummy {
+    height: 50px;
+    width: 100%;
+}
+
+.link {
+    height: 50px;
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.active {
+    background-color: rgba(100, 100, 100, 1.0);
+}

@@ -1,0 +1,86 @@
+.container {
+    margin-top: 30px;
+}
+
+.title {
+    font-size: 32px;
+}
+
+.flexRow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.columnSection {
+    min-height: 50vh;
+}
+
+.column {
+    margin: 4em 2em 2em 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.roundImage {
+    border-radius: 50%;
+    width: 15em;
+}
+
+.roundImageTitle {
+    font-size: 30px;
+    margin: 10px 0px 20px 0px;
+}
+
+.section {
+    padding: 30px;
+}
+
+.sectionTitle {
+    font-size: 32px;
+}
+
+.altBackGround {
+    background-color: rgba(35, 35, 35, 1);
+}
+
+.imageTile {
+    position: relative;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.imageTileImage {
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+    opacity: 0.5;
+}
+
+.imageTileText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size:  36px;
+    font-weight: 700;
+    -webkit-text-stroke: 10px rgba(35, 35, 35, 0.9);
+    -webkit-text-fill-color: white;
+}
+
+.imageTileTextFront {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size:  36px;
+    font-weight: 700;
+    -webkit-text-stroke: 10px rgba(35, 35, 35, 0.0);
+    -webkit-text-fill-color: white;
+}
+
+.sectionText {
+    width: 400px;
+}

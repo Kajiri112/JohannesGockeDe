@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px;
+}
+
+.flexRow {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo {
+    width: 200px;
+}
+
+.contentImage {
+    width: 600px;
+}
+
+.summary {
+    max-width: 600px;
+    padding: 0px 50px;
+}
+
+.title {
+    font-size: 36px;
+}
+
+.downloadLink {
+    font-size: 22px;
+}

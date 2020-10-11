@@ -1,0 +1,27 @@
+.contactSection {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.title {
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+.contactLinks {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.contactLink {
+    padding: 5px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.altBackGround {
+    background-color: rgba(35, 35, 35, 1);
+}
