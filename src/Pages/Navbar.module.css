@@ -1,5 +1,6 @@
 .navBar {
     position: fixed;
+    z-index: 1000;
     height: 50px;
     top: 0;
     right: 0;

@@ -5,7 +5,7 @@ interface IImpressumProps {
 
 const Impressum: React.FunctionComponent<IImpressumProps> = (props) => {
     return (
-        <div>
+        <div style={{minHeight: "90vh"}}>
             <div>
                 <h2>Impressum</h2>
                 <p>

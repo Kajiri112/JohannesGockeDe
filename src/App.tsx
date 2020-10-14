@@ -7,11 +7,13 @@ import Navbar from './Pages/Navbar';
 import Footer from './Pages/Footer';
 import Impressum from './Pages/Impressum';
 import Software from './Pages/Software';
+import ScrollToTop from './Pages/ScrollToTop';
 
 function App() {
   return (
     <div className="App">
       <Router>
+        <ScrollToTop />
         <Navbar />
         <Switch>
           <Route exact path="/impressum" component={Impressum} />
