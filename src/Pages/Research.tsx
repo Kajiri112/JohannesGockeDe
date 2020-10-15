@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { useTranslation } from 'react-i18next';
 
 import rwthLogo from "../Assets/Images/Forschung/RWTH_Logo.png"
 import hotRollingImg from "../Assets/Images/Forschung/HotRolling1.png"
@@ -9,6 +10,7 @@ interface IResearchProps {
 }
 
 const Research: React.FunctionComponent<IResearchProps> = (props) => {
+    const { t } = useTranslation();
     return (
         <div className={Styles.container}>
             <div className={Styles.flexRow}>
@@ -17,14 +19,11 @@ const Research: React.FunctionComponent<IResearchProps> = (props) => {
                 </div>
                 <div className={Styles.summary}>
                     <div className={Styles.title}>
-                        Understanding Hot Rolling Processes<br />
-                        Using Machine Learning
+                        {t("HOT")}
                     </div>
-                    <p className={Styles.downloadLink}><a href={"/Paper/JohannesThesis.pdf"}>Download Thesis - PDF</a></p>
+                    <p className={Styles.downloadLink}><a href={"/Paper/JohannesThesis.pdf"}>{t("DOWNLOAD_PDF")}</a></p>
                     <p>
-                        Das Paper beschäftigt sich mit den Einsatzmöglichkeiten von Machine Learning in der industriellen Produktion.
-                        Zur Erkennung von physikalischen Zusammenhängen und Prozess Optimierung anhand von Big Data.
-                        Das ganze basiert auf reellen Daten des Warmwalzen / Hot Rolling.
+                    {t("HOT_TEXT")}
                     </p>
                     <img className={Styles.contentImage} src={hotRollingImg} alt="hot rolling" />
                 </div>

@@ -20,8 +20,8 @@ i18n
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
-    lng: "en",
-    fallbackLng: 'en',
+    lng: "de",
+    fallbackLng: 'de',
     resources: resources,
     keySeparator: false, // we do not use keys in form messages.welcome
     interpolation: {
